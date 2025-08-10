@@ -1,4 +1,4 @@
-# EngineeringSketchPadWrappers.jl
+# EngineeringSketchPadWrapper.jl
 
 1. [Description](#description)
 2. [Installation](#installation)
@@ -12,5 +12,5 @@ Currently this is in a pre-alpha release. To install, do the following
 ```julia
 using Pkg
 Pkg.add(url="https://github.com/cmhamel/EngineeringSketchPad_jll.jl")
-Pkg.add(url="https://github.com/cthonios/EngineeringSketchPadWrappers.jl")
+Pkg.add(url="https://github.com/cthonios/EngineeringSketchPadWrapper.jl")
 ```
