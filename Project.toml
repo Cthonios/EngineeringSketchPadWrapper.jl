@@ -1,0 +1,30 @@
+name = "EngineeringSketchPadWrapper"
+uuid = "3540a255-7962-4fa4-89f2-3c2d40d9b966"
+authors = ["Craig M. Hamel <cmhamel32@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
+EngineeringSketchPad_jll = "dc1f1ded-c539-59a2-898d-fa059e5c1344"
+Exodus = "f57ae99e-f805-4780-bdca-96e224be1e5a"
+Exodus_jll = "fc7263ad-bce8-5229-97b1-c6ddabda41b1"
+OCCT_jll = "baad4e97-8daa-5946-aac2-2edac59d34e1"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[compat]
+Aqua = "0.8.14"
+CEnum = "0.5"
+EngineeringSketchPad_jll = "1.23"
+Exodus = "0.14"
+Exodus_jll = "9.4"
+OCCT_jll = "7.7"
+Printf = "1"
+Test = "1"
+julia = "1"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Aqua", "Test"]
